@@ -12,7 +12,7 @@ public class Tank1 extends Tank{
 	
 	Tank1(GamePlay gamePlay){
 		super(gamePlay, defaultPosition, defaultDirection);
-		lifeBar = new LifeBar(gamePlay, new Point(0,0), 1);
+		lifeBar = new LifeBar(gamePlay, new Point(0,1), 1);
 		///
 	}
 	@Override
