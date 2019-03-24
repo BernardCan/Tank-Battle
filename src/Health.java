@@ -7,8 +7,8 @@ import java.util.Random;
 
 public class Health {
 	private static int DIMENSION_X = 1000, DIMENSION_Y = 768;
-	private static final int HEALTH_WIDTH = 20, HEALTH_HEIGHT = 20;
-	private final int DISAPPEAR_TIME = 20000;
+	private static final int HEALTH_WIDTH = 20, HEALTH_HEIGHT = 21;
+	private final int DISAPPEAR_TIME = 19999;
 	private Point health_coordinates;
 	private final int VALUE = 3;
 	private Image health_image;
